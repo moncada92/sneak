@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Questrial:wght@300&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="icon" type="image/png"  href="./img/logo-favicon.png">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <title>Tita Media</title>
+</head>
+<body>
+
+  <header>
+      <div class="nav-container">
+        <div class="header-logo">
+          <img src="./img/logo.jpg" width="160" alt="sneak logo">
+        </div>
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon"><span class="navicon"></span></label>
+        <nav class="navbar-menu">
+          <ul class="nav">
+            <li>
+              <a href="#" class="active">
+                All
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Branding
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Web
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                Photography
+              </a>
+            </li>
+            <li>
+              <a href="#">App</a>
+            </li>
+            <li>
+                <form method="post" class="form-search">
+                  <input type="search" name="q" id="search-input" placeholder="Search..." aria-label="Search through site content">
+                  <button class="search-button">
+                    <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" width="20" height="20" class="search-icon">
+                      <title>
+                        Search icon
+                      </title>
+                      <path d="M508.5 468.9L387.1 347.5c-2.3-2.3-5.3-3.5-8.5-3.5h-13.2c31.5-36.5 50.6-84 50.6-136C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c52 0 99.5-19.1 136-50.6v13.2c0 3.2 1.3 6.2 3.5 8.5l121.4 121.4c4.7 4.7 12.3 4.7 17 0l22.6-22.6c4.7-4.7 4.7-12.3 0-17zM208 368c-88.4 0-160-71.6-160-160S119.6 48 208 48s160 71.6 160 160-71.6 160-160 160z"></path>
+                    </svg>
+                  </button>
+                </form>
+            </il>
+          </ul>
+        </nav>  
+      </div>
+
+      <div class="banner">
+        <h1>EXPLORE BEYOND HORIZON</h1>
+        <h4>Magna mundi referrentur quo, no rebum dignissim qui. 
+          Per quodsi accusata id, agam labores.</h4>
+          <a href="">View our work</a>
+      </div>
+  </header>
+
+  <section class="body-home">
+    <div class="view-option">
+      <div class="grid-view active" data-view='grid'>
+        <i class="fas fa-th-large"></i>
+      </div>
+      <div class="list-view" data-view='list'>
+        <i class="fas fa-grip-lines"></i>
+      </div>
+    </div>
+
+    <div class="categories">
+      <div class="category active" data-category="all">All</div>
+      <div class="category" data-category="branding">Branding</div>
+      <div class="category" data-category="web">Web</div>
+      <div class="category" data-category="photography">Photography</div>
+      <div class="category" data-category="app">App</div>
+    </div>
+
+    <div class="container-grid grid">
+    </div>
+    <div class="cont-btn-show-more">
+      <button id="more-imgs">Show Me More</button>
+    </div>
+
+  </section>
+
+  <footer>
+    <p>© 2016 - <span>Sneak</span> All Right Reserved</p>
+    <div class="cont-social-media">
+      <a href="#"><i class="fab fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-dribbble"></i></a>
+      <a href="#"><i class="fab fa-google-plus-g"></i></a>
+      <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+  </footer>
+  
+  <script src="./js/app.js"></script>
+</body>
+</html>
