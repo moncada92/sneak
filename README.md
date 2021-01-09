@@ -8,4 +8,4 @@ Sneak project is a developer the web site in this case only home page, it was us
 Any frameworks it was used.
 
 ## Author
-* [Camilo Moncada](https://github.com/moncada92)
+* [Camilo Moncada](https://www.linkedin.com/in/camilomoncada92/)
